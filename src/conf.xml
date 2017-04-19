@@ -2487,7 +2487,7 @@
             <series name="series" value="RedHat6"/>
             <soft oper="&gt;=" name="openssh" value="openssh-5.3p1-94.el6.x86_64.rpm"/>
         </rule>
-        <rule no="316.4" cve="CVE-2010-5107" vulName="OpenSSH默认服务器配置拒绝服务漏洞(CVE-2010-5107)" ignore="官方未说明"
+        <rule no="316.4" cve="CVE-2010-5107" vulName="OpenSSH默认服务器配置拒绝服务漏洞(CVE-2010-5107)" 
               ruleDesc="影响Redhat5/6" judgment="OpenSSH默认服务器配置拒绝服务漏洞(CVE-2010-5107)|影响Redhat5/6，{series}">
             <series name="series" value="RedHat7"/>
         </rule>
@@ -2506,7 +2506,7 @@
             <series name="series" value="RedHat6"/>
             <soft oper="&gt;=" name="vsftpd" value="vsftpd-2.2.2-6.el6_0.1.x86_64.rpm"/>
         </rule>
-        <rule no="317.4" cve="CVE-2011-0762" vulName="CVE-2011-0762" ignore="官方未说明" ruleDesc="影响Redhat4/5/6"
+        <rule no="317.4" cve="CVE-2011-0762" vulName="CVE-2011-0762"  ruleDesc="影响Redhat4/5/6"
               judgment="CVE-2011-0762|影响Redhat4/5/6，{series}">
             <series name="series" value="RedHat7"/>
         </rule>
@@ -2532,7 +2532,7 @@
             <series name="series" value="RedHat7"/>
             <soft oper="&gt;=" name="openssh" value="openssh-6.6.1p1-22.el7.x86_64.rpm "/>
         </rule>
-        <rule no="319.1" cve="CVE-2016-3115" vulName="OpenSSH &lt;=7.2p1 xauth命令注入漏洞(CVE-2016-3115)" ignore="官方未说明"
+        <rule no="319.1" cve="CVE-2016-3115" vulName="OpenSSH &lt;=7.2p1 xauth命令注入漏洞(CVE-2016-3115)" 
               ruleDesc="影响Redhat5/6/7" judgment="OpenSSH &lt;=7.2p1 xauth命令注入漏洞(CVE-2016-3115)|影响Redhat5/6/7，{series}">
             <series name="series" value="RedHat4"/>
         </rule>
@@ -2552,7 +2552,7 @@
             <series name="series" value="RedHat7"/>
             <soft oper="&gt;=" name="openssh" value="openssh-6.6.1p1-25.el7_2.x86_64.rpm"/>
         </rule>
-        <rule no="320.1" cve="CVE-2016-1908" vulName="OpenSSH 安全漏洞(CVE-2016-1908)" ignore="官方未说明"
+        <rule no="320.1" cve="CVE-2016-1908" vulName="OpenSSH 安全漏洞(CVE-2016-1908)" 
               ruleDesc="影响Redhat5/6/7" judgment="OpenSSH 安全漏洞(CVE-2016-1908)|影响Redhat5/6/7，{series}">
             <series name="series" value="RedHat4"/>
         </rule>
@@ -2570,7 +2570,7 @@
             <series name="series" value="RedHat7"/>
             <soft oper="&gt;=" name="openssh" value="openssh-6.6.1p1-25.el7_2.x86_64.rpm"/>
         </rule>
-        <rule no="321.1" cve="CVE-2016-2177" vulName="CVE-2016-2177" ignore="官方未说明" ruleDesc="影响Redhat5/6/7"
+        <rule no="321.1" cve="CVE-2016-2177" vulName="CVE-2016-2177"  ruleDesc="影响Redhat5/6/7"
               judgment="CVE-2016-2177|影响Redhat5/6/7，{series}">
             <series name="series" value="RedHat4"/>
         </rule>
@@ -2588,7 +2588,7 @@
             <series name="series" value="RedHat7"/>
             <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-51.el7_2.7.x86_64.rpm"/>
         </rule>
-        <rule no="322.1" cve="CVE-2016-6304" vulName="CVE-2016-6304" ignore="官方未说明" ruleDesc="影响Redhat5/6/7"
+        <rule no="322.1" cve="CVE-2016-6304" vulName="CVE-2016-6304"  ruleDesc="影响Redhat5/6/7"
               judgment="CVE-2016-6304|影响Redhat5/6/7，{series}">
             <series name="series" value="RedHat4"/>
         </rule>
@@ -2606,7 +2606,7 @@
             <series name="series" value="RedHat7"/>
             <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-51.el7_2.7.x86_64.rpm"/>
         </rule>
-        <rule no="323.1" cve="CVE-2016-2178" vulName="CVE-2016-2178" ignore="官方未说明" ruleDesc="影响Redhat5/6/7"
+        <rule no="323.1" cve="CVE-2016-2178" vulName="CVE-2016-2178"  ruleDesc="影响Redhat5/6/7"
               judgment="CVE-2016-2178|影响Redhat5/6/7，{series}">
             <series name="series" value="RedHat4"/>
         </rule>
@@ -2624,7 +2624,7 @@
             <series name="series" value="RedHat7"/>
             <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-51.el7_2.7.x86_64.rpm"/>
         </rule>
-        <rule no="324.1" cve="CVE-2016-4971" vulName="CVE-2016-4971" ignore="官方未说明" ruleDesc="影响Redhat5/6/7"
+        <rule no="324.1" cve="CVE-2016-4971" vulName="CVE-2016-4971"  ruleDesc="影响Redhat5/6/7"
               judgment="CVE-2016-4971|影响Redhat5/6/7，{series}">
             <series name="series" value="RedHat4"/>
         </rule>
@@ -2659,7 +2659,7 @@
             <series name="series" value="RedHat7"/>
             <soft oper="&gt;=" name="glibc" value="glibc-2.17-106.el7_2.4.x86_64.rpm"/>
         </rule>
-        <rule no="326.1" cve="CVE-2014-4877" vulName="CVE-2014-4877" ignore="官方未说明" ruleDesc="影响Redhat5/6/7"
+        <rule no="326.1" cve="CVE-2014-4877" vulName="CVE-2014-4877"  ruleDesc="影响Redhat5/6/7"
               judgment="CVE-2014-4877|影响Redhat5/6/7，{series}">
             <series name="series" value="RedHat4"/>
         </rule>
@@ -2677,7 +2677,7 @@
             <series name="series" value="RedHat7"/>
             <soft oper="&gt;=" name="wget" value="wget-1.14-10.el7_0.1.x86_64.rpm"/>
         </rule>
-        <rule no="327.1" cve="CVE-2015-0235" vulName="CVE-2015-0235" ignore="官方未说明" ruleDesc="影响Redhat5/6/7"
+        <rule no="327.1" cve="CVE-2015-0235" vulName="CVE-2015-0235"  ruleDesc="影响Redhat5/6/7"
               judgment="CVE-2015-0235|影响Redhat5/6/7，{series}">
             <series name="series" value="RedHat4"/>
         </rule>
@@ -2715,7 +2715,7 @@
             <series name="series" value="RedHat7"/>
             <soft oper="&gt;=" name="kernel" value="kernel-3.10.0-327.36.3.el7.x86_64.rpm"/>
         </rule>
-        <rule no="329.1" cve="cve-2016-1908" vulName="OpenSSH 安全漏洞(CVE-2016-1908)" ignore="官方未说明"
+        <rule no="329.1" cve="cve-2016-1908" vulName="OpenSSH 安全漏洞(CVE-2016-1908)" 
               ruleDesc="影响Redhat5/6/7" judgment="OpenSSH 安全漏洞(CVE-2016-1908)|影响Redhat5/6/7，{series}">
             <series name="series" value="RedHat4"/>
         </rule>
