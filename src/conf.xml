@@ -1566,20 +1566,20 @@
       <series name="series" value="redhat7" />
       <soft oper="&gt;=" name="kernel" value="kernel-3.10.0-327.36.3.el7.x86_64.rpm" />
     </rule>
-    <rule no="287" cve="CVE-2014-1692" vulName="OpenSSH‘hash_buffer’函数缓冲区溢出漏洞" ruleDesc="影响HPUX11.31" judgment="OpenSSH‘hash_buffer’函数缓冲区溢出漏洞(CVE-2014-1692)|HP-UX Secure Shell-A.06.20.012|影响HPUX11.31，{HP-UX SECURE SHELL}">
-      <series name="series" value="HPUX11.31" />
+    <rule no="287" cve="CVE-2014-1692" vulName="OpenSSH‘hash_buffer’函数缓冲区溢出漏洞" ruleDesc="影响HP-UX B.11.31" judgment="OpenSSH‘hash_buffer’函数缓冲区溢出漏洞(CVE-2014-1692)|HP-UX Secure Shell-A.06.20.012|影响HP-UX B.11.31，{HP-UX SECURE SHELL}">
+      <series name="series" value="HP-UX B.11.31" />
       <soft oper="&gt;=" name="HP-UX SECURE SHELL" value="HP-UX Secure Shell-A.06.20.012" />
     </rule>
-    <rule no="288" cve="CVE-2013-4548" vulName="OpenSSH ‘mm_newkeys_from_blob’函数权限许可和访问控制漏洞" ruleDesc="影响HPUX11.31" judgment="OpenSSH ‘mm_newkeys_from_blob’函数权限许可和访问控制漏洞(CVE-2013-4548)|HP-UX Secure Shell-A.06.20.012|影响HPUX11.31，{HP-UX SECURE SHELL}">
-      <series name="series" value="HPUX11.31" />
+    <rule no="288" cve="CVE-2013-4548" vulName="OpenSSH ‘mm_newkeys_from_blob’函数权限许可和访问控制漏洞" ruleDesc="影响HP-UX B.11.31" judgment="OpenSSH ‘mm_newkeys_from_blob’函数权限许可和访问控制漏洞(CVE-2013-4548)|HP-UX Secure Shell-A.06.20.012|影响HP-UX B.11.31，{HP-UX SECURE SHELL}">
+      <series name="series" value="HP-UX B.11.31" />
       <soft oper="&gt;=" name="HP-UX SECURE SHELL" value="HP-UX Secure Shell-A.06.20.012" />
     </rule>
-    <rule no="289" cve="CVE-2014-2653" vulName="OpenSSH‘verify_host_key’函数输入验证漏洞" ruleDesc="影响HPUX11.31" judgment="OpenSSH‘verify_host_key’函数输入验证漏洞(CVE-2014-2653)|HP-UX Secure Shell-A.06.20.012|影响HPUX11.31，{HP-UX SECURE SHELL}">
-      <series name="series" value="HPUX11.31" />
+    <rule no="289" cve="CVE-2014-2653" vulName="OpenSSH‘verify_host_key’函数输入验证漏洞" ruleDesc="影响HP-UX B.11.31" judgment="OpenSSH‘verify_host_key’函数输入验证漏洞(CVE-2014-2653)|HP-UX Secure Shell-A.06.20.012|影响HP-UX B.11.31，{HP-UX SECURE SHELL}">
+      <series name="series" value="HP-UX B.11.31" />
       <soft oper="&gt;=" name="HP-UX SECURE SHELL" value="HP-UX Secure Shell-A.06.20.012" />
     </rule>
-    <rule no="290" cve="CVE-2014-2532" vulName="OpenSSH 权限许可和访问控制漏洞" ruleDesc="影响HPUX11.31" judgment="OpenSSH 权限许���和访问控制漏洞(CVE-2014-2532)|HP-UX Secure Shell-A.06.20.012|影响HPUX11.31，{HP-UX SECURE SHELL}">
-      <series name="series" value="HPUX11.31" />
+    <rule no="290" cve="CVE-2014-2532" vulName="OpenSSH 权限许可和访问控制漏洞" ruleDesc="影响HP-UX B.11.31" judgment="OpenSSH 权限许���和访问控制漏洞(CVE-2014-2532)|HP-UX Secure Shell-A.06.20.012|影响HP-UX B.11.31，{HP-UX SECURE SHELL}">
+      <series name="series" value="HP-UX B.11.31" />
       <soft oper="&gt;=" name="HP-UX SECURE SHELL" value="HP-UX Secure Shell-A.06.20.012" />
     </rule>
   </rules>
@@ -1587,7 +1587,7 @@
         <user name="AIX" value="卫延伟"></user>
         <user name="SUSE" value="李远、申浚"></user>
         <user name="REDHAT" value="康中伟"></user>
-        <user name="HPUX" value="卫延伟"></user>
+        <user name="HP-UX" value="卫延伟"></user>
         <user name="DATABASE" value="彭庆军"></user>
         <user name="WAS" value="彭庆军"></user>
         <user name="NET" value="邵保华"></user>
