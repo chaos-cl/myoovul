@@ -427,7 +427,7 @@
       <series name="series" value="redhat7" />
       <soft oper="&gt;=" name="openssh" value="openssh-6.6.1p1-11.el7.x86_64.rpm" />
     </rule>
-	<rule no="140.3" cve="CVE-2014-2653" vulName="OpenSSH verify_host_key函数 SSHFP DNS RR 检查绕过漏洞" ruleDesc="影响RedHat6/7&#xA;此漏洞针对Redhat5官方不予修复" judgment="OpenSSH verify_host_key函数 SSHFP DNS RR 检查绕过漏洞(CVE-2014-2653)|openssh-6.6.1p1-11.el7.x86_64.rpm|影响RedHat6/7&#xA;此漏洞针对Redhat5官方不予修复，{SERIES}">
+  <rule no="140.3" cve="CVE-2014-2653" vulName="OpenSSH verify_host_key函数 SSHFP DNS RR 检查绕过漏洞" ruleDesc="影响RedHat6/7&#xA;此漏洞针对Redhat5官方不予修复" judgment="OpenSSH verify_host_key函数 SSHFP DNS RR 检查绕过漏洞(CVE-2014-2653)|openssh-6.6.1p1-11.el7.x86_64.rpm|影响RedHat6/7&#xA;此漏洞针对Redhat5官方不予修复，{SERIES}">
       <series name="series" value="redhat5" />
     </rule>
     <rule no="141" cve="CVE-2014-2532" vulName="OpenSSH 权限许可和访问控制漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSH 权限许可和访问控制漏洞(CVE-2014-2532)|openssh-5.3p1-104.el6.x86_64.rpm|影响RedHat6/7，{openssh}">
@@ -1583,4 +1583,108 @@
       <soft oper="&gt;=" name="HP-UX SECURE SHELL" value="HP-UX Secure Shell-A.06.20.012" />
     </rule>
   </rules>
+    <users>
+        <user name="AIX" value="卫延伟"></user>
+        <user name="SUSE" value="李远、申浚"></user>
+        <user name="REDHAT" value="康中伟"></user>
+        <user name="HPUX" value="卫延伟"></user>
+        <user name="DATABASE" value="彭庆军"></user>
+        <user name="WAS" value="彭庆军"></user>
+        <user name="NET" value="邵保华"></user>
+        <user name="SEC" value="邵保华"></user>
+    </users>
+    <domains>
+        <domain name="北环核心域">
+            <value>10.96.16.0/24</value>
+            <value>10.96.18.0/24</value>
+            <value>10.96.19.0/24</value>
+            <value>10.87.21.0/24</value>
+            <value>10.87.31.0/24</value>
+        </domain>
+        <domain name="商贸路核心域">
+            <value>10.96.160.0/24</value>
+            <value>10.96.161.0/24</value>
+            <value>10.96.168.0/24</value>
+            <value>10.96.169.0/24</value>
+            <value>10.97.33.0/24</value>
+        </domain>
+        <domain name="经分核心域">
+            <value>10.97.186.0/24</value>
+            <value>10.87.19.0/24</value>
+            <value>10.87.25.0/24</value>
+            <value>10.97.192.0/24</value>
+        </domain>
+        <domain name="客服核心域">
+            <value>10.87.32.0/24</value>
+            <value>10.96.94.0/25</value>
+            <value>10.87.92.0/24</value>
+            <value>10.87.93.0/24</value>
+            <value>10.96.93.128/25</value>
+            <value>10.96.237.0/25</value>
+            <value>10.96.205.0/25</value>
+        </domain>
+        <domain name="西区核心域">
+            <value>10.93.160.0/24</value>
+            <value>10.93.161.0/24</value>
+            <value>10.93.168.0/24</value>
+            <value>10.93.166.0/24</value>
+            <value>10.93.167.0/24</value>
+            <value>10.93.169.0/24</value>
+        </domain>
+        <domain name="北环内部接口域">
+            <value>10.96.20.0/24</value>
+            <value>10.87.20.0/24</value>
+        </domain>
+        <domain name="商贸路内部接口域">
+            <value>10.96.170.0/24</value>
+            <value>10.97.34.0/24</value>
+        </domain>
+        <domain name="西区内部接口域">
+            <value>10.93.170.0/24</value>
+        </domain>
+        <domain name="北环外部接口域">
+            <value>10.96.22.0/24</value>
+        </domain>
+        <domain name="商贸路外部接口域">
+            <value>10.96.172.0/24</value>
+        </domain>
+        <domain name="北环互联网接口域">
+            <value>10.96.24.0/24</value>
+            <value>10.87.111.128/28</value>
+        </domain>
+        <domain name="商贸路互联网接口域">
+            <value>10.96.164.0/24</value>
+        </domain>
+        <domain name="西区互联网接口域">
+            <value>10.93.164.0/24</value>
+        </domain>
+        <domain name="经分爬虫互联网域">
+            <value>10.87.24.0/25</value>
+        </domain>
+        <domain name="业务支撑网终端">
+            <value>10.96.21.0/24</value>
+            <value>10.96.214.0/24</value>
+        </domain>
+        <domain name="厂家终端">
+            <value>10.96.17.0/24</value>
+            <value>10.96.23.0/24</value>
+            <value>10.87.18.0/24</value>
+            <value>10.87.23.0/24</value>
+        </domain>
+        <domain name="北环测试开发域">
+            <value>10.87.30.128/25</value>
+        </domain>
+        <domain name="商贸路测试开发域">
+            <value>10.87.30.0/25</value>
+        </domain>
+        <domain name="西区测试开发域">
+            <value>10.97.85.0/24</value>
+        </domain>
+        <domain name="经分跳板机">
+            <value>10.87.17.0/24</value>
+        </domain>
+        <domain name="客服域控服务器">
+            <value>10.87.45.192/28</value>
+        </domain>
+    </domains>
 </root>
